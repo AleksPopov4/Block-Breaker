@@ -3,7 +3,9 @@
 public class Ball : MonoBehaviour
 {
     //config params
+#pragma warning disable 649
     [SerializeField] Paddle paddle1;
+#pragma warning restore 649
     [SerializeField] private float xPush = 2f;
     [SerializeField] private float yPush = 15f;
 
