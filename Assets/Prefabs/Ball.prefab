@@ -137,11 +137,8 @@ MonoBehaviour:
   paddle1: {fileID: 0}
   xPush: 2
   yPush: 13
-  ballSounds:
-  - {fileID: 8300000, guid: 9a3da123766f2f54aad85b19ad6f1383, type: 3}
-  - {fileID: 8300000, guid: 266775bbb1ab77f41a13ee4a55efcce1, type: 3}
-  - {fileID: 8300000, guid: b4b0a1e6d23cd5b4bb5e037e7533f8ef, type: 3}
-  - {fileID: 8300000, guid: 5ff92e8a54d10da48be548506614f4fc, type: 3}
+  ballSounds: []
+  randomForce: 0.2
 --- !u!82 &6589234134736823924
 AudioSource:
   m_ObjectHideFlags: 0
@@ -154,7 +151,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.503
   m_Pitch: 1
   Loop: 0
   Mute: 0

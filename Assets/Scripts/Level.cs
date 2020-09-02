@@ -12,7 +12,7 @@ public class Level : MonoBehaviour
     {
         sceneLoader = FindObjectOfType<SceneLoader>();
     }
-    public void CountBreakableBlocks()
+    public void CountBlocks()
     {
         breakableBlocks++;
     }
@@ -20,7 +20,7 @@ public class Level : MonoBehaviour
     public void BlockDestroyed()
     {
         breakableBlocks--;
-        if (breakableBlocks <= 0)
+        if (breakableBlocks <= 4)
         {
             sceneLoader.LoadNextScene();
         }
